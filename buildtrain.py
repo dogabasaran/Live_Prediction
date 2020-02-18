@@ -20,11 +20,6 @@ import netmodel
 import preprocess
 from live_predict import prediction
 
-#BUILD_STATE = True
-#TRAIN_MODEL = True
-#LIVE_PREDICT = True
-
-
 def get_args(argv):
     
     try:
