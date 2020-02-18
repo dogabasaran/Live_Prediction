@@ -61,6 +61,6 @@ def main(BUILD_STATE, IMAGES_PER_LABEL, TRAIN_MODEL):
 
 
 if __name__ == "__main__":
-    BUILD_STATE, IMAGES_PER_LABEL, TRAIN_MODEL, LIVE_PREDICT = get_args(sys.argv[1:])
+    BUILD_STATE, IMAGES_PER_LABEL, TRAIN_MODEL = get_args(sys.argv[1:])
     main(BUILD_STATE, IMAGES_PER_LABEL, TRAIN_MODEL)
 

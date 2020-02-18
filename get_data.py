@@ -10,7 +10,7 @@ collected images will be 300x300
 
 def main(MAKE_NEW_DATASET, IMAGES_PER_LABEL, LABELS):
     if MAKE_NEW_DATASET:
-        shutil.rmtree('data')
+        #shutil.rmtree('data')
         os.makedirs('data')
         for label in LABELS:
             try:
