@@ -1,7 +1,7 @@
 Simple machine learning pipeline to gather data from computer camera, preprocess it, train a convolutional neural network and evaluate it using a live camera feed.
 
 
-File Descriptions:
+# File Descriptions:
 buildtrain.py: runs get_data.py, preprocess.py and netmodel.py in a pipeline with respect to given arguments. Can also do this via running scripts individually.
 get_data.py: Open up camera feed to gather data, stores images into data/ folder in folders of the labels provided
 preprocess.py: Prepares the data for convnet. Resizes, normalizes, and shuffles the dataset
