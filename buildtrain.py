@@ -33,10 +33,9 @@ def get_args(argv):
         print('python runall.py -b <BUILD_STATE> -i <IMAGES_PER_LABEL> -t <TRAIN_MODEL>')
         print("<BUILD_STATE> should be Boolean (0 or 1). \n <IMAGES_PER_LABEL> should be int(). \n <TRAIN_MODEL> should be Boolean (1 or 0)")
         sys.exit(2)
-    print(opts)
     for opt, arg in opts:
         if opt == '-h' or opt == '--help':
-            print('python runall.py -b <BUILD_STATE> -i <IMAGES_PER_LABEL> -l <LIVE_PREDICT_STATE>')
+            print('python runall.py -b <BUILD_STATE> -i <IMAGES_PER_LABEL> -t <TRAIN_MODEL>')
             sys.exit()
         elif opt in ("-b", "--build"):
             BUILD_STATE = int(arg)
