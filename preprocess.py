@@ -7,17 +7,8 @@ from tqdm import tqdm
 import tensorflow as tf
 
 '''
-Objective:
-Normalise data --> first dstack all images      DONE
-Create a stack of labels                        DONE
-plot example dataset with labels                DONE
-bind labels to Images:                          DONE
-shuffle dataset                                 DONE
-Resize images                                   DONE
+TODO:
 Convert labels into list of it's indices
-divide dataset into train and test              DONE (in model.py)
-        80% Train , 20% Test
-
 '''
 
 
